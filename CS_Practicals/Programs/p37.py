@@ -1,5 +1,6 @@
 string = input("enter a sentence")
-string = string.split()
-for i in string:
-    string+=string
-print(str(string))
+s = string.split()
+d=''
+for i in s:
+    d+=i
+print(d)
